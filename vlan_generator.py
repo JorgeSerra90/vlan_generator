@@ -12,7 +12,7 @@ def ensure_output_directory():
     """Create output directory if it doesn't exist"""
     # Define the output directory path
     # output_dir = Path("output")
-    output_dir = Path(__file__).resolve().parent / "output"
+    output_dir = Path(__file__).resolve().parent / "configs"
     # Create directory if it doesn't exist (no error if it does)
     output_dir.mkdir(exist_ok=True)
     # Confirm directory is ready
